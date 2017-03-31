@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Suite]">
+  <test name="Registering a new user from Signin Page(failed)" preserve-order="false">
+    <classes>
+      <class name="com.holmusk.glycoleap.scenarios.SignupWithInvalidUPID">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.UniqueProgramIDDetails">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.Signin">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.SigninSupportMessage">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.RegisterNewUser">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.ForgotPassword">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.RegisterNewUserFromSigninPage">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+          <include name="registerNewUserFromSigninPage"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.RegisterUserWithExistingUsers">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.holmusk.glycoleap.scenarios.SigninWithInvalidCredentials">
+        <methods>
+          <include name="prepareAndroidForAppium"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

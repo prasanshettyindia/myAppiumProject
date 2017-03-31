@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-15I83TBR" name="scenarios.SignIn" tests="1" failures="0" timestamp="21 Mar 2017 16:53:46 GMT" time="59.923" errors="0">
+  <testcase name="signInByRegisteredUser" time="40.852" classname="scenarios.SignIn"/>
+</testsuite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-15I83TBR" name="com.holmusk.glycoleap.scenarios.UniqueProgramIDDetails" tests="1" failures="0" timestamp="22 Mar 2017 18:26:47 GMT" time="25.703" errors="0">
+  <testcase name="displayUniqueProgramIDDetails" time="6.873" classname="com.holmusk.glycoleap.scenarios.UniqueProgramIDDetails"/>
+</testsuite>

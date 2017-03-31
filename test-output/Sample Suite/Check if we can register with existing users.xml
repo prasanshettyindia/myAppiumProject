@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-15I83TBR" name="com.holmusk.glycoleap.scenarios.RegisterUserWithExistingUsers" tests="1" failures="0" timestamp="29 Mar 2017 15:25:51 GMT" time="46.617" errors="0">
+  <testcase name="registerWithExistingUsers" time="26.335" classname="com.holmusk.glycoleap.scenarios.RegisterUserWithExistingUsers"/>
+</testsuite>

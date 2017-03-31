@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite" verbose="1" >
+  <test name="Registering a new user" >
+    <classes>
+       -- Specify Class name here ---
+       <class name="com.holmusk.glycoleap.scenarios.RegisterNewUser" />
+    
+    </classes>
+  </test>
+
+  <test name="Registering a new user from Signin Page">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.RegisterNewUserFromSigninPage" />
+    </classes>
+  </test>
+  <test name="Sign In with valid credentials">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.Signin" />
+    </classes>
+  </test>
+  <test name="Test for Forgot Password">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.ForgotPassword" />
+    </classes>
+  </test>
+  <test name="Check if we can register with existing users">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.RegisterUserWithExistingUsers" />
+    </classes>
+  </test>
+  <test name="Sign In with invalid credentials">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.SigninWithInvalidCredentials" />
+    </classes>
+  </test>
+  <test name="To check if Sign In Support message is Displayed">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.SigninSupportMessage" />
+    </classes>
+  </test>
+  <test name="To check if unique program ID details is Displayed">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.UniqueProgramIDDetails" />
+    </classes>
+  </test>
+  <test name="Sign up with invalid unique program ID">
+    <classes>
+      -- Specify Class name here ---
+         <class name="com.holmusk.glycoleap.scenarios.SignupWithInvalidUPID" />
+    </classes>
+  </test>
+</suite>

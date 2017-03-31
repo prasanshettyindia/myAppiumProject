@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-15I83TBR" name="com.holmusk.glycoleap.scenarios.SigninSupportMessage" tests="1" failures="0" timestamp="29 Mar 2017 15:27:26 GMT" time="53.485" errors="0">
+  <testcase name="signInByRegisteredUser" time="28.099" classname="com.holmusk.glycoleap.scenarios.SigninSupportMessage"/>
+</testsuite>
